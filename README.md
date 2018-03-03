@@ -1,3 +1,15 @@
+## IMPORTANT INFORMATION ABOUT THIS FORK
+
+This repository has the purpose to recreate the history of changes of mooncoin switching from repo https://github.com/mooncoindev/mooncoin to https://github.com/mooncoincore/wallet since the developer https://github.com/mooncoincore/wallet/commits?author=bkrith did a bad job starting the https://github.com/mooncoincore/wallet as a single commit that merged the previous repo and many changes caused by merge with https://github.com/litecoin-project/litecoin/releases/tag/v0.13.2
+
+Steps for this repository startup:
+
+* Fork of https://github.com/mooncoindev/mooncoin at height 25091733f354227d91a008e32b93cc7e95524c87.
+* Creation of branch before-litecoin-merge-from-Vassilis for future use
+* Complete checkout of https://github.com/mooncoincore/wallet to replace all current files
+* Cherry-pick of all commits executed on https://github.com/mooncoincore/wallet
+
+
 ## Mooncoin Core 0.13.9-segwit
 
 
